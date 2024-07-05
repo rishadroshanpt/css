@@ -1,0 +1,21 @@
+h2{
+    color:gold;
+    background-color: aliceblue;
+}
+h1{
+    color: brown;
+    font-style: italic;
+}
+#a1{
+    color: rgba(186, 44, 31, 0.545);
+}
+.a2{
+    width: 300px;
+  border: 15px solid rgb(97, 110, 97);
+  padding: 50px;
+  margin: 20px;
+    color: rgb(184, 109, 17);
+}
+.a2,#a1{
+    background-color: aqua;
+}
