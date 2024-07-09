@@ -2,9 +2,12 @@ h2{
     color:gold;
     background-color: aliceblue;
     border-style: dotted double;
-    border-width: 5px;
     border-color: black;
     border-radius: 10px;
+    padding-left: 30px;
+    padding-right: 25px;
+    padding-top: 15px;
+    padding-bottom: 25px;
 }
 h1{
     color: brown;
@@ -14,10 +17,12 @@ h1{
     margin-left: 50px;
     margin-right: 60px;
     margin-top: 130px;
+    padding: 20px 80px 25px;
 }
 #a1{
     color: rgba(16, 219, 60, 0.877);
     border-style: dotted solid double dashed; 
+    text-transform: uppercase;
 }
 .a2,#a1{
     background-color: aqua;
@@ -28,6 +33,23 @@ h1{
 body{
     background-image: url(image/backiee-274078-landscape.jpg);
     background-size: 1600px 900px;
-    background: #ffffff url("image/liberty-walk-f40-1.jpg") no-repeat  right bottom;
+    background: #ffffd0 url("image/liberty-walk-f40-1.jpg") no-repeat  right top;
   
+}
+div{
+    width: 30%;
+    height: 50px;
+    background-color: rgba(142, 142, 85, 0.545); 
+    float:left;
+    margin-bottom: 30px;
+}
+a{
+    text-decoration: none;
+}
+.d1{
+    background-color: rgba(99, 162, 69, 0.975);
+}
+.a3{
+    word-spacing: 15px;
+    text-shadow: 2px 2px;
 }
