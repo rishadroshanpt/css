@@ -169,3 +169,51 @@ img{
     font-size: 18px;
     background-color: #0a0a0a00;
   }
+  .main2{
+    width: 600px;
+    height: 500px;
+    background-color: red;
+    border: #0a0a0a  solid 2px;
+    margin: auto;
+  }
+  .m2sub1{
+    width: 300px;
+    height: 250px;
+    background-color: green;
+    position: relative;
+    top: 125px;
+    left: 150px;
+  }
+  .m2sub2{
+    width: 150px;
+    height: 125px;
+    background-color: blue;
+    position: relative;
+    top: 64.5px;
+    left: 75px;
+  }
+  .main3{
+    width: 600px;
+    height: 600px;
+    background-color: blue;
+    margin: auto;
+    position: relative;
+  }
+  .m3sub1{
+    background-color: red;
+    border: 2px solid black;
+    height: 400px;
+    width: 400px;
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+  }
+  .m3sub2{
+    background-color: rgba(0, 0, 0, 0.97);
+    height: 400px;
+    width: 400px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+
+  }
