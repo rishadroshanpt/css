@@ -37,12 +37,7 @@ body{
     margin: 50px;
   
 }
-div{
-    width: 33%;
-    margin: 2px;
-    height: 50px;
-    background-color: rgba(142, 142, 85, 0.545); 
-}
+
 a{
     text-decoration: none;
 }
@@ -118,6 +113,7 @@ td:hover{background-color: rgba(157, 204, 204, 0.407);}
     position: -webkit-sticky;
     position: sticky;
     top: 0;
+    z-index: 1;
 }
 img{
     width: 100%;
@@ -198,6 +194,7 @@ img{
     background-color: blue;
     margin: auto;
     position: relative;
+    margin-top: 40px;
   }
   .m3sub1{
     background-color: red;
@@ -217,3 +214,108 @@ img{
     left: 0px;
 
   }
+  .main4{
+    position: relative;
+    border: 2px solid black;
+    margin: auto;
+    margin-top: 50px;
+    height: 100px;
+    background-color: #0a0a0a00;
+    z-index: 1;
+  }
+  .m4sub1{
+    position:absolute;
+    background-color: gray;
+    width: 70%;
+    height: 70px;
+    left: 10px;
+    top: 40px;
+    z-index: 3;
+  }
+  .m4sub2{
+    position:absolute;
+    background-color:rgb(66, 170, 66);
+    width: 33%;
+    height: 70px;
+    left: 150px;
+    top: -10px;
+    z-index: 2;
+  }
+  .overflow{
+    width: 60%;
+    height: 70px;
+    background-color: rgb(94, 73, 47);
+    margin: 40px;
+    color: #ffffff;
+    overflow: scroll;
+    border: 2px solid rgba(0, 0, 0, 0.527);
+  }
+  .fixed{
+    position: fixed;
+    width: 50px;
+    height: 50px;
+    bottom: 0;
+    right: 0;
+    opacity: 2;
+  }
+  .img1{
+    width: 50%;
+    height: auto;
+    opacity:1;
+    display: block;
+    margin: auto;
+  }
+  .h2{
+    border: none;
+    background: none;
+  }
+  .p2{
+    left: 0;
+    border: 2px solid black;
+    width: 350px;
+    padding: 10px;
+    height: auto;
+    background-color: #0a0a0a01;
+    margin-top: 50px;
+  }
+  .p3{
+    position: absolute;
+    right:0;
+    border: 2px solid black;
+    width: 350px;
+    padding: 10px;
+    height:auto;
+    background-color: #0a0a0a03;
+    margin: 50px 0 50px 50px;
+  }
+  #p1{
+    padding: 50px 0;
+    border: 2px solid red;
+    text-align: center;
+    margin-top: 200px;
+  }
+  a:link{
+    color: red;
+  }
+  a:visited{
+    color: violet;
+  }
+  a:hover{
+    color: rgb(0, 10, 0);
+  }
+  a:active{
+    color: aqua;
+  }
+  .img1:hover{
+    width: 800px;
+    height: auto;
+  }
+#img2{
+    width: 1200px;
+    height: auto;
+    opacity: 0.3;
+    margin: auto;
+}
+#img2:hover{
+    opacity: 0.9;
+}
