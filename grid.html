@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .head{
+            grid-area: head;
+            background-color: aqua;
+        }
+        .nav{
+            grid-area: nav;
+            background-color: aliceblue;
+        }
+        .msg{
+            grid-area: msg;
+            background-color: bisque;
+        }
+        .img{
+            grid-area: img;
+            background-color: blueviolet
+        }
+        .sub{
+            grid-area: sub;
+            background-color: aquamarine;
+        }
+        .main{
+            display: grid;
+            background-color: black;
+            margin: auto;
+            width: 70%;
+            grid-template-areas: 
+            'head head nav'
+            'sub sub img'
+            'msg msg img';
+            grid-template-rows: 100px 400px 100px;
+            text-align: center;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="main">
+        <div class="head">head</div>
+        <div class="nav">nav</div>
+        <div class="sub">sub</div>
+        <div class="img">img</div>
+        <div class="msg">msg</div>
+    </div>
+</body>
+</html>
