@@ -73,11 +73,37 @@
             'sub sub img'
             'msg msg img'
             'button button img';
-            grid-template-rows: 60px 400px 80px 70px;
+            /* grid-template-rows: 60px 400px 80px 70px; */
             text-align: center;
             font-size: 30px;
         }
-
+        .nav a:hover{
+            background-color: rgb(38, 38, 38);
+            color: #bbbbbb;
+        }
+        @media screen and (max-width:1000px) {
+            .main,.nav{
+                grid-template-areas: 
+            'head head head'
+            'nav nav nav'
+            'sub sub sub'
+            'img img img'
+            'msg msg msg'
+            'button button button';
+            }
+        }
+        @media screen and (max-width:600px) {
+            .main,.nav{
+                flex-direction: column;
+                grid-template-areas: 
+            'head head head'
+            'nav nav nav'
+            'sub sub sub'
+            'img img img'
+            'msg msg msg'
+            'button button button';
+            }
+        }
     </style>
 </head>
 <body>

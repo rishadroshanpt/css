@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            margin: 0;
+            background-color: aqua;
+        }
+        #nav{
+            background-color: black;
+            overflow: hidden;
+        }
+        #nav a{
+            color: azure;
+            float: left;
+            display: block;
+            padding: 12px 16px;
+            text-decoration: none;
+            text-align: center;
+        }
+        #nav a:hover{
+            background-color: rgb(176, 171, 171);
+            color: black;
+        }@media screen and (max-width:800px) {
+            #nav a{
+                float: none;
+            }
+            body{
+                background-color: rgb(19, 80, 59);
+            }
+        }
+        @media screen and (max-width:500px) {
+            #nav a{
+                float: none;
+                text-align: left;
+            }
+            body{
+                background-color: aquamarine;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div id="nav">
+        <a href="">Home</a>
+        <a href="">About</a>
+        <a href="">Contact</a>
+    </div>
+</body>
+</html>
